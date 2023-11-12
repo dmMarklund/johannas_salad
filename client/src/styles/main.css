@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&display=swap");
+
+* {
+  font-family: "Sometype Mono", monospace;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.error,
+.login,
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login input {
+  padding: 2px;
+  margin: 5px;
+  width: 10rem;
+  height: 2rem;
+  border: 1 solid black;
+}
+
+.login button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 5px;
+  width: 10rem;
+  height: 2.4rem;
+}
+
+.dashboard_buttons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.data_button,
+.graphs_button {
+  margin: 5px;
+  width: 15rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+
+/* Data */
+
+.data_container {
+  text-align: center;
+}
+
+.data_back {
+  margin-bottom: 1rem;
+}
+
+.data_container input,
+select {
+  margin-right: 0.2rem;
+  width: 8rem;
+}
+
+.data_addbutton {
+  margin-left: 0.2rem;
+}
+
+.data_container table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.data_container th,
+td {
+  border: 1px solid #000;
+  padding: 2px;
+  text-align: center;
+}
+
+.data_container th:nth-child(odd) {
+  background-color: #b6b6b6;
+}
+
+.data_container td:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.data_container th:nth-child(even) {
+  background-color: #b6b6b6;
+}
+
+.graph_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.convert_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.convert_button {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.data_container_convert {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.graph_chart_link {
+  margin-top: 4rem;
+  width: 10rem;
+  height: 3rem;
+}
+
+.graph_chart_link_bar {
+  margin-right: 4rem;
+}
+
+.graph_container_graphic {
+  margin-top: 1rem;
+}
+
+.graph_generate {
+  margin: 1.5rem;
+}
+
+.graph_container_table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.graph_container_table th,
+.graph_container_table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.graph_container_table thead tr {
+  background-color: #f2f2f2;
+}
+
+.graph_container_table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
